@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::DataStructures
   class Column
     include ActiveScaffold::Configurable

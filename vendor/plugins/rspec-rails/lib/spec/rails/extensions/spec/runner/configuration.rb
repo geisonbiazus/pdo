@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/runner/configuration'
 require 'test_help'
 

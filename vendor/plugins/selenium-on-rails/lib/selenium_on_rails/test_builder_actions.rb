@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # The actions available for SeleniumOnRails::TestBuilder tests.
 #
 # For each action +foo+ there's also an action +foo_and_wait+.

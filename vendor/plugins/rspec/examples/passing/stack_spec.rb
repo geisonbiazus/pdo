@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'examples/passing/stack'
 require 'examples/passing/shared_stack_examples'
 

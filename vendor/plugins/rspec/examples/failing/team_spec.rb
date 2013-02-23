@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Team
   attr_reader :players
   def initialize

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Pesquisa < ActiveRecord::Base
   has_many :respostas_pesquisas, :dependent => :destroy
   has_many :dados_demograficos, :dependent => :destroy, :order => 'numero'

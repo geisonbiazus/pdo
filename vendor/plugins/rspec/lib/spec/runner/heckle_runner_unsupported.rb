@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Runner
     # Dummy implementation for Windows that just fails (Heckle is not supported on Windows)

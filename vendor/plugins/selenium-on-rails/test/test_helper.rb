@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ENV["RAILS_ENV"] = "test"
 RAILS_ROOT = "test" unless defined?(RAILS_ROOT)
 $: << File.expand_path(File.dirname(__FILE__) + "/../lib")

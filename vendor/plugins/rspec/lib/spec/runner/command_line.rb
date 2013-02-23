@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/runner/option_parser'
 
 module Spec

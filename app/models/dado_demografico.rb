@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class DadoDemografico < ActiveRecord::Base
   belongs_to :pesquisa
   has_many :alternativas, :class_name => AlternativaDadoDemografico.name, :dependent => :destroy, :order => 'numero'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Test::Unit::TestResult
   alias_method :tu_passed?, :passed?
   def passed?

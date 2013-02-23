@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::Actions
   module Core
     def self.included(base)

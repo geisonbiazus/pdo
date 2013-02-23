@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This is an example of how you can use a custom formatter to do custom
 # reporting. This formatter will only report example groups and examples that
 # have :report => true (or anything truthy) in the declaration. See

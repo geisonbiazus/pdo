@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "drb/drb"
 
 module Spec

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Expectations
     # If Test::Unit is loaed, we'll use its error as baseclass, so that Test::Unit

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CustomRouteSpecController < ActionController::Base; end
 class RspecOnRailsSpecsController < ActionController::Base; end
 

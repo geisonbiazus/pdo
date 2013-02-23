@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RespostaDadoDemografico < ActiveRecord::Base
   belongs_to :dado_demografico
   belongs_to :alternativa_dado_demografico

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 require 'spec/runner/formatter/failing_example_groups_formatter'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold
   module Helpers
     # All extra helpers that should be included in the View.

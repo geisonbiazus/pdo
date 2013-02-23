@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Test::Unit::AutoRunner
   remove_method :process_args
   def process_args(argv)

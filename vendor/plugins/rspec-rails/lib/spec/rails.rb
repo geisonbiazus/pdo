@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   require_dependency 'application_controller'
 rescue MissingSourceFile

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'autotest'
 
 Autotest.add_hook :initialize do |at|

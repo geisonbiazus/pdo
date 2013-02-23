@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateAlternativasDadosDemograficos < ActiveRecord::Migration
   def self.up
     create_table :alternativas_dados_demograficos do |t|

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module DadosDemograficosHelper
   def tipo_form_column(record, input_name)
     campo = ""    

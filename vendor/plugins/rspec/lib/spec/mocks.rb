@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/mocks/framework'
 require 'spec/mocks/extensions/object'
 

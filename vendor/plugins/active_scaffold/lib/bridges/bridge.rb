@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold
   def self.bridge(name, &block)
     ActiveScaffold::Bridge.new(name, &block)

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold
   module Helpers
     module CountryHelpers

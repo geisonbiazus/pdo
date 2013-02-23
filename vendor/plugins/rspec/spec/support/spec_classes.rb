@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This file contains various classes used by the specs.
 module Spec
   module Expectations

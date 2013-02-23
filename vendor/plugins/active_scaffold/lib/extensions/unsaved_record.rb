@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # a simple (manual) unsaved? flag and method. at least it automatically reverts after a save!
 class ActiveRecord::Base
   # acts like a dirty? flag, manually thrown during update_record_from_params.

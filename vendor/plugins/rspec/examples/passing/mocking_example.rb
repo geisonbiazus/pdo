@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "A consumer of a mock" do
   it "should be able to send messages to the mock" do
     mock = mock("poke me")

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec # :nodoc:
   module Rails # :nodoc:
     module VERSION # :nodoc:

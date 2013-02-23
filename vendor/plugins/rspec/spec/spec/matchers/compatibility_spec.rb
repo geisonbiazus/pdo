@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 
 Spec::Matchers.define :have_public_instance_method do |method|

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Custom
   class ExampleGroupRunner
     attr_reader :options, :arg

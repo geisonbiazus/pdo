@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'selenium_on_rails/test_builder_actions'
 require 'selenium_on_rails/test_builder_accessors'
 

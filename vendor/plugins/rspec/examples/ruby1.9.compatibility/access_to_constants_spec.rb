@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # courtesy of Matthias Hennemeyer
 #
 # The following should pass against ruby 1.8 and 1.9. It currently only passes

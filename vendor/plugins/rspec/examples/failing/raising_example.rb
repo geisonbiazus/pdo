@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "This example" do
   
   it "should show that a NoMethodError is raised but an Exception was expected" do

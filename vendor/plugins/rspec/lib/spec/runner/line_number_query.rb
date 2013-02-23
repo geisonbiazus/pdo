@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Runner
     # Parses a spec file and finds the nearest example for a given line number.

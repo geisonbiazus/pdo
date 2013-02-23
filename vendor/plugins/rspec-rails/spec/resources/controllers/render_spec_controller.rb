@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RenderSpecController < ApplicationController
   prepend_view_path File.join(File.dirname(__FILE__), "..", "views")
   

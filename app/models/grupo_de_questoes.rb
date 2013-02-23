@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class GrupoDeQuestoes < ActiveRecord::Base
   has_many :alternativas, :dependent => :destroy, :order => 'numero'
   has_many :questoes, :dependent => :destroy, :order => 'numero'

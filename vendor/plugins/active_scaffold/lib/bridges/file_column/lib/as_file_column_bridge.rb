@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_scaffold/data_structures/column'
 module ActiveScaffold::DataStructures
   class Column

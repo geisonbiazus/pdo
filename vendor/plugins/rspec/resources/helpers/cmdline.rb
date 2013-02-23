@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec'
 
 # Uncommenting next line will break the output feature (no output!!)

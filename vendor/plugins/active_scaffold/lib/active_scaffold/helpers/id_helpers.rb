@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold
   module Helpers
     # A bunch of helper methods to produce the common view ids

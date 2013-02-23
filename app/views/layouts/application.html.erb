@@ -27,7 +27,7 @@
       </div>
     <% end %>
     <div id="conteudo">
-      <%= yield %>
+      <%= yield.force_encoding("UTF-8") %>
     </div>
   </body>
 </html>

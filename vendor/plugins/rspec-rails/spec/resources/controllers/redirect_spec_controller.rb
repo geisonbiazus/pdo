@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RedirectSpecController < ApplicationController
 
   def action_with_no_redirect

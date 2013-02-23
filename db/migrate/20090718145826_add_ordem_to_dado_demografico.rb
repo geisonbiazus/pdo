@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddOrdemToDadoDemografico < ActiveRecord::Migration
   def self.up
     add_column :dados_demograficos, :ordem, :integer

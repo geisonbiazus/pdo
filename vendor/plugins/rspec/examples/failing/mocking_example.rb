@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "Mocker" do
 
   it "should be able to call mock()" do

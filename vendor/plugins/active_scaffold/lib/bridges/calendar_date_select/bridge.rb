@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ActiveScaffold.bridge "CalendarDateSelect" do
   install do
     # check to see if the old bridge was installed.  If so, warn them

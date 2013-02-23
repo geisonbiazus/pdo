@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # stub frameworks like to gum up Object, so this is deliberately
 # set NOT to run so that you don't accidentally run it when you
 # run this dir.

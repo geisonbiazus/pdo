@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ActionController::IntegrationTest
   alias_method :orig_initialize, :initialize
   def initialize(*args)

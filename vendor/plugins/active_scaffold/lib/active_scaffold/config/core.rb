@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_scaffold/config/base'
 module ActiveScaffold::Config
   class Core < Base

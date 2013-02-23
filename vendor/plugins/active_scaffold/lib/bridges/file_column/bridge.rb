@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ActiveScaffold.bridge "FileColumn" do
   install do
     if ActiveScaffold::Config::Core.instance_methods.include?("initialize_with_file_column")

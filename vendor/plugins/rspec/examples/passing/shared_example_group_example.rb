@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SharedExampleGroupExample
   class OneThing
     def what_things_do

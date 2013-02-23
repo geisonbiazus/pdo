@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MockableModel < ActiveRecord::Base
   has_one :associated_model
 end

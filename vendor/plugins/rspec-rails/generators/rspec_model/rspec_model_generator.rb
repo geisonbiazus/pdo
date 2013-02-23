@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails_generator/generators/components/model/model_generator'
 require File.dirname(__FILE__) + '/../rspec_default_values'
 

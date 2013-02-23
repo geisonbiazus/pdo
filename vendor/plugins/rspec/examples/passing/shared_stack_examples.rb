@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 shared_examples_for "non-empty Stack" do
 
   it { @stack.should_not be_empty }

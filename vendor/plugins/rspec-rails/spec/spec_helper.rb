@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 $LOAD_PATH.unshift '../rspec/lib'
 $LOAD_PATH.unshift '../../../'
 $LOAD_PATH.unshift 'spec/resources/controllers'

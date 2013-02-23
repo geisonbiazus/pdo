@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::Config
   class Subform < Base
     def initialize(core_config)

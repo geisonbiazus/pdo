@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "arrays" do
   def contain_same_elements_as(expected)
     simple_matcher "array with same elements in any order as #{expected.inspect}" do |actual|

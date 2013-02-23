@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "Running specs with --diff" do
   it "should print diff of different strings" do
     uk = <<-EOF

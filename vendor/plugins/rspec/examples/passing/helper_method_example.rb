@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module HelperMethodExample
   describe "an example group with helper a method" do
     def helper_method

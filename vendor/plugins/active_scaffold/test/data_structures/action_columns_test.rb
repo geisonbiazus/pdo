@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require File.join(File.dirname(__FILE__), '../test_helper.rb')
 # require 'test/model_stub'
 require File.join(File.dirname(__FILE__), '../../lib/active_scaffold/data_structures/set.rb')

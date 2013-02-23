@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Array
   # returns the value after the given value. wraps around. defaults to first element in array.
   def after(value)

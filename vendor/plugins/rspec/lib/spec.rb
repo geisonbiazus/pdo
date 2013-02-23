@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/deprecation'
 require 'spec/ruby'
 require 'spec/matchers'

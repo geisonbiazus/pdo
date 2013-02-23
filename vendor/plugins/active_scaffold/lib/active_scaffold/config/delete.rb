@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::Config
   class Delete < Base
     self.crud_type = :destroy

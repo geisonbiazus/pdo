@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/runner/formatter/base_text_formatter'
 require 'spec/runner/formatter/no_op_method_missing'
 

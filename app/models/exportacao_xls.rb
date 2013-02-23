@@ -1,3 +1,5 @@
+# -*- encoding : utf-8 -*-
+require 'spreadsheet'
 class ExportacaoXls
 
   attr_accessor :dados

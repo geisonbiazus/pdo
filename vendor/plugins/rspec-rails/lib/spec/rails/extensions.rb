@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec'
 
 require 'spec/rails/extensions/spec/runner/configuration'

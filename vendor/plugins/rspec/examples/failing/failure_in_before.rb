@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "This example" do
   
   before(:each) do

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ConstMocker
   def initialize(*const_names)
     @const_names = const_names

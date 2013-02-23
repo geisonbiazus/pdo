@@ -1,4 +1,4 @@
-# coding: utf-8
+# -*- encoding : utf-8 -*-
 module ActiveScaffold
   module Helpers
     # Helpers that assist with the rendering of a List Column

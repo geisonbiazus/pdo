@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Usuario < ActiveRecord::Base
   validates_presence_of :usuario, :senha
   validates_uniqueness_of :usuario

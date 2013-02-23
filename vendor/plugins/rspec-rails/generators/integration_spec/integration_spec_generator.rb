@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require File.dirname(__FILE__) + '/../rspec_default_values'
 
 class IntegrationSpecGenerator < ModelGenerator

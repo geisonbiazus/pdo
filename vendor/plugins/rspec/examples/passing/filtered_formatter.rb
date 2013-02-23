@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/runner/formatter/nested_text_formatter'
 
 class FilteredFormatter < Spec::Runner::Formatter::NestedTextFormatter

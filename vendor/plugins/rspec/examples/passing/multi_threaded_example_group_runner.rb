@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MultiThreadedExampleGroupRunner < Spec::Runner::ExampleGroupRunner
   def initialize(options, arg)
     super(options)

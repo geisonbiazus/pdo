@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Mocks
     module Methods

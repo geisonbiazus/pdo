@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This demonstrates how you can write custom formatters to handle arbitrary
 # options passed to the +describe+ and +it+ methods. To see it in action, stand
 # in the project root and say:

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #Based on patch from Wilson Bilkovich
 
 require 'spec_helper'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   class << self
     def deprecate(method, alternate_method=nil)

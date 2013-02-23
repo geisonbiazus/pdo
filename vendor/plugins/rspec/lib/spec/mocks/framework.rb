@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Require everything except the global extensions of class and object. This
 # supports wrapping rspec's mocking functionality without invading every
 # object in the system.

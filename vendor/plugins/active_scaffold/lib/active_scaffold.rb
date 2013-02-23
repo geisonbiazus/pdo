@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold
   class ControllerNotFound < RuntimeError; end
   class DependencyFailure < RuntimeError; end

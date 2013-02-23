@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Questao < ActiveRecord::Base
   belongs_to :grupo_de_questoes
   has_many :respostas_questoes

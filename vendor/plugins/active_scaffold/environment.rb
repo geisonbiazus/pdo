@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_scaffold'
 
 # TODO: clean up extensions. some could be organized for autoloading, and others could be removed entirely.

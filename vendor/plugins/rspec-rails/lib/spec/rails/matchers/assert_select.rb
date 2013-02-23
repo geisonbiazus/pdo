@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This is a wrapper of assert_select for rspec.
 
 module Spec # :nodoc:

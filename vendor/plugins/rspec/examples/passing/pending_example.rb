@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "pending example (using pending method)" do
   it %Q|should be reported as "PENDING: for some reason"| do
     pending("for some reason")

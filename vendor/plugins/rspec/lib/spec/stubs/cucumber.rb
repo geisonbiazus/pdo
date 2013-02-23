@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This plugs RSpec's mocking/stubbing framework into cucumber
 require 'spec/mocks'
 Before {$rspec_stubs ||= Spec::Mocks::Space.new}

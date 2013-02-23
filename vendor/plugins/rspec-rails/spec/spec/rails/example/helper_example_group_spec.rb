@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 Spec::Runner.configuration.global_fixtures = :people
 

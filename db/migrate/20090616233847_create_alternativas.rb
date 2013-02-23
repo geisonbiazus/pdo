@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateAlternativas < ActiveRecord::Migration
   def self.up
     create_table :alternativas do |t|

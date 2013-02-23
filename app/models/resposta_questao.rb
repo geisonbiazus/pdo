@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RespostaQuestao < ActiveRecord::Base
   belongs_to :questao
   belongs_to :alternativa

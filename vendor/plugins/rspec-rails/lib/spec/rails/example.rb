@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 dir = File.dirname(__FILE__)
 
 require 'spec/rails/example/routing_helpers'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class DadosDemograficosController < ApplicationController
   active_scaffold do |config|
     config.columns = [:numero, :pesquisa, :questao, :questao_obrigatoria, :tipo, :alternativas]

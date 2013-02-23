@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # the ever-useful to_label method
 class ActiveRecord::Base
   def to_label

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Kernel
   unless respond_to?(:debugger)
     # Start a debugging session if ruby-debug is loaded with the -u/--debugger option

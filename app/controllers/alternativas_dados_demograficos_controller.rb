@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AlternativasDadosDemograficosController < ApplicationController
   active_scaffold do |config|
     config.columns = [:numero, :descricao]

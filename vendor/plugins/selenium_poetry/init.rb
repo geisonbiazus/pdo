@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 SeleniumOnRails::TestBuilder.send("include", SeleniumPoetry) if defined?(SeleniumOnRails::TestBuilder)
 
 if defined?(SeleniumOnRails::TestBuilderActions)

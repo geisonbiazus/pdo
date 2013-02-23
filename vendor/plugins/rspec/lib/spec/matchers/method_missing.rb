@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Matchers
     def method_missing(sym, *args, &block) # :nodoc:

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec'
 
 if Spec::Ruby.version.to_f >= 1.9

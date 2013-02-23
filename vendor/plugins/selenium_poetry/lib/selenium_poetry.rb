@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This module extends SeleniumOnRails::TestBuilder. It enables you to write more readable Selenium tests.
 #
 # To use the methods of Selenium Poetry in your tests, you'll first need to load selectors. Do that with the method load_selectors.

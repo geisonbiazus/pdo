@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # The accessors available for SeleniumOnRails::TestBuilder tests.
 #
 # For each +store_foo+ there's +assert_foo+, +assert_not_foo+, +verify_foo+,

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Matchers
     # wraps an expectation in a block that will return true if the

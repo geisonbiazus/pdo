@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #----------------------------------------------------------------------------
 # This is a *_authortest.rb file, which means it will only run if you run:
 # rake alltests

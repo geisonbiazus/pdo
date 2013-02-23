@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateDadosDemograficos < ActiveRecord::Migration
 
   def self.up

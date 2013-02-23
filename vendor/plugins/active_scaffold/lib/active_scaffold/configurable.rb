@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold
   # Exposes a +configure+ method that accepts a block and runs all contents of the block in two contexts, as opposed to the normal one. First, everything gets evaluated as part of the object including Configurable. Then, as a failover, missing methods and variables are evaluated in the original binding of the block.
   #

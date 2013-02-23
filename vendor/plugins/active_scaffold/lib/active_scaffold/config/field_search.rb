@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::Config
   class FieldSearch < Base
     self.crud_type = :read

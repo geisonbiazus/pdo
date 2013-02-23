@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class TabulacaoQuestoesFechadas < ActiveRecord::Base
   set_table_name "tabulacao_questoes_fechadas"
 

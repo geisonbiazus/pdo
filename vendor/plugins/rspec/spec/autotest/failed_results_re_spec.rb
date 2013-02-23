@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/autotest/autotest_helper'
 
 describe "failed_results_re" do

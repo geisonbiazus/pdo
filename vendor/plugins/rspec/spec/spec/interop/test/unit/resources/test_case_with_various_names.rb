@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 rspec_lib = File.dirname(__FILE__) + "/../../../../../../lib"
 $:.unshift rspec_lib unless $:.include?(rspec_lib)
 require 'spec/autorun'

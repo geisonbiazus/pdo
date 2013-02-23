@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require RAILS_ROOT + '/lib/comandos_java'
 
 module RelatoriosHelper

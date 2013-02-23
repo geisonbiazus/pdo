@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddUsuarioIdToPesquisa < ActiveRecord::Migration
   def self.up
     add_column :pesquisas, :usuario_id, :integer

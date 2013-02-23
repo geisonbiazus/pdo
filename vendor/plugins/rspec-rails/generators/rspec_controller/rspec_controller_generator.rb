@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails_generator/generators/components/controller/controller_generator'
 
 class RspecControllerGenerator < ControllerGenerator

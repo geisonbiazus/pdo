@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Example
     # When you reopen a module that is included in another module that is included in a class,

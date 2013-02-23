@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "This example" do
   
   it "should be listed as failing in after" do

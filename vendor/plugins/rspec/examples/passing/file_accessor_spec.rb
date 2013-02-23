@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'examples/passing/file_accessor'
 require 'stringio'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 $: << File.dirname(__FILE__) + '/..' << File.dirname(__FILE__) + '/../lib'
 %w(test/unit rubygems init yaml mocha stubba lib/selenium_poetry).each { |lib| require lib }
 

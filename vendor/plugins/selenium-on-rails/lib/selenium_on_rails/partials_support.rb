@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'selenium_on_rails/paths'
 
 module SeleniumOnRails::PartialsSupport

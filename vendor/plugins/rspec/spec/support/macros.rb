@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Macros
   def treats_method_missing_as_private(options = {:noop => true, :subject => nil})
     it "should have method_missing as private" do

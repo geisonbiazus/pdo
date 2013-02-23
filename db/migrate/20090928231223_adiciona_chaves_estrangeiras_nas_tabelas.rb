@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AdicionaChavesEstrangeirasNasTabelas < ActiveRecord::Migration
   extend MigrationHelper
 

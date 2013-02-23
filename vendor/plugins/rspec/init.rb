@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Placeholder to satisfy Rails.
 #
 # Do NOT add any require statements to this file. Doing

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe "Mock" do
   before do
     @mock = mock("test mock")

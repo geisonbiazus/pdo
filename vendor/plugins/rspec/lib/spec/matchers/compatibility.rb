@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Spec::Matchers.constants.each do |c|
   if Class === (klass = Spec::Matchers.const_get(c))
     if klass.public_instance_methods.any? {|m| ['failure_message_for_should',:failure_message_for_should].include?(m)}

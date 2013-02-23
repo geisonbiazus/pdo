@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/interop/test'
 
 # Hack to stop active_support/dependencies from complaining about

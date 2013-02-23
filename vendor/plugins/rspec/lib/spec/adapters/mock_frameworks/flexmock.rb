@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #!/usr/bin/env ruby
 #
 #  Created by Jim Weirich on 2007-04-10.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/interop/test/unit/test_unit_spec_helper'
 
 describe "TestSuiteAdapter" do

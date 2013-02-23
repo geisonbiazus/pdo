@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddQuestaoObrigatorioToDadoDemograficoAndQuestao < ActiveRecord::Migration
   def self.up
     add_column :dados_demograficos, :questao_obrigatoria, :boolean

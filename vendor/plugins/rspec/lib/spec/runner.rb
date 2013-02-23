@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/runner/configuration'
 require 'spec/runner/options'
 require 'spec/runner/option_parser'

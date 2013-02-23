@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MigrationHelper
   
   def foreign_key(from_table, to_table)

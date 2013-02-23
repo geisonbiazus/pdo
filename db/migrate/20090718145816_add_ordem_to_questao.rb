@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddOrdemToQuestao < ActiveRecord::Migration
   def self.up
     add_column :questoes, :ordem, :integer

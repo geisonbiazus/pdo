@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'stringio'
 
 $_spec_spec = true # Prevents Kernel.exit in various places

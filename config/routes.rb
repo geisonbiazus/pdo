@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ActionController::Routing::Routes.draw do |map|
 #  map.resources :login
   map.resources :usuarios, :active_scaffold => true

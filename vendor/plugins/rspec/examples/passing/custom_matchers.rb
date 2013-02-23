@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module AnimalSpecHelper
   class Eat
     def initialize(food)

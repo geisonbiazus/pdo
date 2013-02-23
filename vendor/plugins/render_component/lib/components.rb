@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Components
   def self.included(base) #:nodoc:
     base.class_eval do

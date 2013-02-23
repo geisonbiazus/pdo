@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 require File.dirname(__FILE__) + '/ar_classes'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/matchers/extensions/instance_exec'
 require 'spec/matchers/pretty'
 require 'spec/matchers/matcher'

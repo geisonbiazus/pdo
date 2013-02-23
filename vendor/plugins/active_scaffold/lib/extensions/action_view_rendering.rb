@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # wrap the action rendering for ActiveScaffold views
 module ActionView #:nodoc:
   class Base

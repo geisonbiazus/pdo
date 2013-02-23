@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::DataStructures
   class ActionLink
     # provides a quick way to set any property of the object from a hash

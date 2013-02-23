@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rubygems' unless ENV['NO_RUBYGEMS']
 require 'rr'
 

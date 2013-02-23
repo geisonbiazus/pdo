@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if defined?(ActiveRecord::Base)
   module Spec
     module Matchers

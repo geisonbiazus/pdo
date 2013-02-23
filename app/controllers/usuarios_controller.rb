@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class UsuariosController < ApplicationController
   active_scaffold do |config|
     config.columns = [:usuario, :senha, :senha_confirmation]

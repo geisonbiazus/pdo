@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/matchers'
 require 'spec/expectations/fail_with'
 require 'spec/expectations/errors'

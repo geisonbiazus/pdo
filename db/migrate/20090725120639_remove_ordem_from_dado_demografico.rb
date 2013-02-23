@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RemoveOrdemFromDadoDemografico < ActiveRecord::Migration
   def self.up
     remove_column :dados_demograficos, :ordem

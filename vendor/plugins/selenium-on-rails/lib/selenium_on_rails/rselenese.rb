@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Renders Selenium test templates in a fashion analogous to +rxml+ and
 # +rjs+ templates.
 #

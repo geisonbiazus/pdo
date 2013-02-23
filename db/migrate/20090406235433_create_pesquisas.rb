@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreatePesquisas < ActiveRecord::Migration
   def self.up
     create_table :pesquisas do |t|

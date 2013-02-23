@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SeleniumHelper
   include SeleniumOnRails::SuiteRenderer
   include SeleniumOnRails::FixtureLoader

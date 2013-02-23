@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 test_folders = %w[bridges config data_structures extensions misc]
 
 all_tests = test_folders.inject([]) {|output, folder|

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController #:nodoc:
   class TestResponse #:nodoc:
     attr_writer :controller_path

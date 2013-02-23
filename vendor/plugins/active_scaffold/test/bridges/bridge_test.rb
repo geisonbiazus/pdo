@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 def dbg; require "ruby-debug"; debugger; end;
 
 require File.join(File.dirname(__FILE__), '../test_helper.rb')

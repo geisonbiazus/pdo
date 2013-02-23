@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   module Example
     # Lightweight proxy for an example. This is the object that is passed to

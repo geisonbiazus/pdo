@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'selenium_on_rails/partials_support'
 
 class SeleniumOnRails::Selenese

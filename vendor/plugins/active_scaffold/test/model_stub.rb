@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ModelStub < ActiveRecord::Base
   abstract_class = true
   has_one :other_model, :class_name => 'ModelStub'

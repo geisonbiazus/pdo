@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Matt Mower <matt@cominded.com>
 # 
 # A base class for creating DHTML confirmation types.

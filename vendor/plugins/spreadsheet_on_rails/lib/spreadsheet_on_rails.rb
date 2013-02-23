@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SpreadsheetOnRails
 
   class Handler < ::ActionView::TemplateHandler

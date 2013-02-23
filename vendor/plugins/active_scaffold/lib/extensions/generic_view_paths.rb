@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # wrap find_template to search in ActiveScaffold paths when template is missing
 module ActionView #:nodoc:
   class PathSet

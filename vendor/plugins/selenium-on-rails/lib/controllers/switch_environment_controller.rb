@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class SwitchEnvironmentController < ActionController::Base
   def index
     readme_path = File.expand_path File.join(File.dirname(__FILE__), '..', 'README')

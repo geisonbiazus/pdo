@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::DataStructures
   # A set of columns. These structures can be nested for organization.
   class ActionColumns < Set

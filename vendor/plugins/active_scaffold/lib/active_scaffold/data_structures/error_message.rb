@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::DataStructures
   # Wrapper for error strings so that they may be exported using to_xxx
   class ErrorMessage

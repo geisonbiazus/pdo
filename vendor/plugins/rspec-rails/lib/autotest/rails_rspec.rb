@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # (c) Copyright 2006 Nick Sieger <nicksieger@gmail.com>
 #
 # Permission is hereby granted, free of charge, to any person

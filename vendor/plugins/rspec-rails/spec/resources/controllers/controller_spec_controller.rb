@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ControllerSpecController < ActionController::Base
   before_filter :raise_error, :only => :action_with_skipped_before_filter
   

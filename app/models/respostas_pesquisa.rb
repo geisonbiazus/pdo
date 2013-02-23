@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RespostasPesquisa < ActiveRecord::Base
   has_many :respostas_dados_demograficos, :dependent => :destroy
   has_many :respostas_questoes, :dependent => :destroy

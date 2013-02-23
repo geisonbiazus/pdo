@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rbconfig'
 
 # This generator bootstraps a Rails project for use with RSpec

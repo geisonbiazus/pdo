@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Run "spec implicit_docstrings_example.rb --format specdoc" to see the output of this file
 
 describe "Examples with no docstrings generate their own:" do

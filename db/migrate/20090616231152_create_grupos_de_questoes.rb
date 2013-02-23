@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateGruposDeQuestoes < ActiveRecord::Migration
   def self.up
     create_table :grupos_de_questoes do |t|

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MockModel
   attr_accessor :name
   attr_accessor :bio

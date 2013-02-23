@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveScaffold::DataStructures
   # encapsulates the column sorting configuration for the List view
   class Sorting

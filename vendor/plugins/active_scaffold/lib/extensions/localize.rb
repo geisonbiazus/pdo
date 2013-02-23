@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Object
   def as_(key, options = {})
     unless key.blank?

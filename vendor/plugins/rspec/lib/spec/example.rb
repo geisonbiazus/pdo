@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spec
   # == Example Groups and Code Examples
   #

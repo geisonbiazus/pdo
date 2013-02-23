@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec/runner/formatter/progress_bar_formatter'
 
 # Example of a formatter with custom bactrace printing. Run me with:

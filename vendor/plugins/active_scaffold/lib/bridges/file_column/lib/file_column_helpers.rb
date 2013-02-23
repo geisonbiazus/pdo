@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FileColumnHelpers
   class << self
     def file_column_fields(klass)

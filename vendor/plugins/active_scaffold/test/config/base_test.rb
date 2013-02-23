@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require File.join(File.dirname(__FILE__), '../test_helper.rb')
 
 class Config::BaseTest < Test::Unit::TestCase

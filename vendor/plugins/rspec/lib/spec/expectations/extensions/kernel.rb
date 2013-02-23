@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Kernel
   # :call-seq:
   #   should(matcher)

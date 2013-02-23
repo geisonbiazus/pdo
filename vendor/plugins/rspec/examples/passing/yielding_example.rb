@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MessageAppender
   
   def initialize(appendage)
