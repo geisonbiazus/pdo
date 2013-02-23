@@ -9,7 +9,7 @@ class UsuariosController < ApplicationController
     config.columns[:senha_confirmation].form_ui = :password
     config.columns[:senha_confirmation].label = "Confirmação"
 
-    config.actions.exclude :update
+    config.actions.exclude :update, :delete
   end
   
 end
