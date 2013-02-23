@@ -28,6 +28,7 @@ GEM
     ruby-ole (1.2.11.6)
     spreadsheet (0.8.1)
       ruby-ole (>= 1.0)
+    test-unit (1.2.3)
     thin (1.5.0)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -41,4 +42,5 @@ DEPENDENCIES
   rails (= 2.3.2)
   rdoc
   spreadsheet
+  test-unit
   thin
