@@ -1,3 +1,5 @@
 Sistema para criar e aplicar pesquisas de opinião
 
 O sistema pode ser testado no endereço http://pdo.herokuapp.com/
+usuario: admin
+senha: admin
