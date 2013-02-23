@@ -1,0 +1,40 @@
+<div class="subtitulo_pesquisa">Questões</div>
+
+<% @pesquisa.grupos_de_questoes.each do |grupo_de_questoes| %>
+  <% unless grupo_de_questoes.questoes.blank? %>
+    <div id="grupo_de_questoes_<%= grupo_de_questoes.id %>" class="formulario">
+      <ol>
+        <%= grupo_de_questoes.descricao %>
+        <% grupo_de_questoes.questoes.each do |questao| %>
+        
+          <% resposta_questao = @respostas_pesquisa.respostas_questoes.detect {|r| r.questao_id == questao.id} || questao.respostas_questoes.new %>
+          <% classe = "questao_com_erro" if (!resposta_questao.valid? && params[:action] == "responder_questionario") %>
+
+        <li class="<%= classe %>">
+            <%= "#{questao.numero} - #{questao.descricao}" %>
+            <br>
+
+            <%= hidden_field_tag "questoes[#{questao.id}][questao_id]", questao.id %>
+
+
+            <% if grupo_de_questoes.tipo == "ABERTAS" %>
+              <%= text_area "grupo_de_questoes_#{grupo_de_questoes.id}", "questao_#{questao.id}", :rows => 4, :cols => 48, :class => "text questao_pesquisa #{classe}",
+                :name => "questoes[#{questao.id}][resposta]",
+                :value => resposta_questao.resposta %>
+            <% else %>
+              <% grupo_de_questoes.alternativas.each do |alternativa| %>
+                <span class="alternativa_questionario">
+                  <%= radio_button("grupo_de_questoes_#{grupo_de_questoes.id}", "questao_#{questao.id}", alternativa.id,
+                    :name => "questoes[#{questao.id}][alternativa_id]",
+                    :checked => resposta_questao.alternativa_id == alternativa.id) %>
+
+                  <%= label_tag "grupo_de_questoes_#{grupo_de_questoes.id}_questao_#{questao.id}_#{alternativa.id}", alternativa.descricao %>
+                </span>
+              <% end %>
+            <% end %>
+          </li>
+        <% end %>
+      </ol>
+    </div>
+  <% end %>
+<% end %>

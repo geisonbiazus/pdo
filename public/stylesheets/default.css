@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #2A5DB0;
+    cursor: pointer;
+}
+
+a:hover {
+    color: navy;
+    background-color: transparent;
+}
+
+/* MENU */
+
+#menu {
+    background-color: #6694E3;
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid black;
+}
+
+#menu ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+    border-right:2px solid black;
+    height: 25px;
+    padding-top: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+#menu a {
+    color: white;
+    font-weight: bold;
+}
+
+#conteudo {
+    padding: 10px;
+}
+
+.titulo {
+    border-bottom: 2px solid #2A5DB0;
+    color:#2A5DB0;
+    font-size:20px;
+    font-weight:bold;
+    height:30px;
+}
+
+.subtitulo {
+    border-bottom: 2px solid #2A5DB0;
+    color:#2A5DB0;
+    font-size: 16px;
+    font-weight:bold;
+    height:25px;
+    width:50%;
+}
+
+.alinhar_esquerda {
+    text-align: left;
+}
+
+/*table.listagem {
+    width: 100%;
+    border-right: 1px solid #2A5DB0;
+}
+
+table.listagem tr.even td {
+    background-color: #E0ECFF;
+}
+
+table.listagem tr th {
+    background-color: #2A5DB0;
+    color: white;
+}
+
+table.listagem tr {
+    padding: 0;
+    margin: 0;
+}
+
+table.listagem td {
+    border-bottom: 1px solid #2A5DB0;
+    border-left: 1px solid #2A5DB0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table.listagem th {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table.listagem tr td.actions {
+    width: 115px;
+    text-align: center;
+}
+
+table.listagem tr td.actions a{
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+div#link_nova_pesquisa {
+    width: 100%;
+    text-align: right;
+}
+
+div#link_nova_pesquisa a{
+    font-size: 15px;
+}
+
+div#formulario_pesquisa {
+    width: 1004px;
+}
+
+div#erros_pesquisa {
+    margin-top: 5px;
+    float: right;
+}
+
+ FORMULARIO 
+*/
+
+.formulario ol {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.formulario li {
+    padding: 12px 0;
+}
+
+.formulario dd {
+    font-weight: bold;
+}
+
+.formulario dt {
+    float: left;
+    width: 130px;
+}
+
+
+.text {
+    border: 1px solid #2A5DB0;
+}
+
+#errorExplanation {
+    background-color: white;
+    border-color: #CC0000;
+}
+
+#errorExplanation ul li {
+    font-weight: 900;
+    padding-top: 0px;
+}
+
+.fieldWithErrors {
+    background-color: white;
+    display: table;
+    padding:0px;
+}
+
+.fieldWithErrors input,
+.fieldWithErrors textarea,
+.fieldWithErrors select {
+    border: 1px solid red;
+}
+
+/*
+
+div#texto_introdutorio {
+    margin-left: 90px;
+}
+
+div#dados_da_pesquisa {
+    width: 1004px;
+}*/
+
+/* ACTIVE SCAFFOLD */
+
+div#conteudo .active-scaffold th a:hover {
+    color: #C5DBF7;
+}
+
+div#conteudo .active-scaffold th a {
+    color: white;
+}
+
+div#conteudo .active-scaffold a {
+    color: #2A5DB0;
+}
+
+div#conteudo .active-scaffold a:hover {
+    background-color: transparent;
+    color: navy;
+}
+
+.active-scaffold .view {
+    background-color: #F7F7F7;
+    border:1px solid #C5DBF7;
+}
+
+div#conteudo .active-scaffold h4,
+div#conteudo .active-scaffold h5 {
+    color: #2A5DB0;
+}
+
+div#conteudo .active-scaffold select:focus,
+div#conteudo .active-scaffold input.text-input:focus {
+    background-color: white;
+}
+
+div#conteudo .active-scaffold input.text-input,
+div#conteudo .active-scaffold select,
+div#conteudo .active-scaffold textarea {
+    border: 1px solid #2A5DB0;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+div#conteudo_questionario {
+    padding: 10px;
+}
+
+.titulo_pesquisa {
+    color:#2A5DB0;
+    font-size:20px;
+    font-weight:bold;
+    padding:30px 0;
+    text-align:center;
+    width:100%;
+}
+
+.subtitulo_pesquisa {
+    color:#2A5DB0;
+    font-size: 16px;
+    font-weight:bold;
+    width: 100%;
+    padding:30px 0;
+}
+
+.questao_pesquisa {
+    width: 350px;
+}
+
+textarea.questao_pesquisa {
+    width: 750px;
+}
+
+#questionario {
+    width: 762px;
+}
+
+.alternativa_questionario {
+    padding-right: 30px;
+    display: block;
+}
+
+li.questao_com_erro,
+label.questao_com_erro {
+    color: red;
+}
+
+input.questao_com_erro,
+select.questao_com_erro,
+textarea.questao_com_erro {
+    border: 1px solid red;
+}
+
+#login {
+    text-align: center
+}
+
+#errorExplanation ul li{
+    color: black;
+}
+
+div#conteudo .active-scaffold div.fieldWithErrors input.text-input,
+div#conteudo .active-scaffold div.fieldWithErrors select,
+div#conteudo .active-scaffold div.fieldWithErrors textarea {
+    border:1px solid red;
+}

@@ -1,0 +1,18 @@
+<% 1.upto(100) do |numero| %>
+
+resposta_questao_1_<%= numero %>:
+  respostas_pesquisa_id: <%= numero %>
+  alternativa_id: 1
+  questao_id: 1
+
+resposta_questao_2_<%= numero %>:
+  respostas_pesquisa_id: <%= numero %>
+  alternativa_id: 1
+  questao_id: 2
+
+resposta_questao_3_<%= numero %>:
+  respostas_pesquisa_id: <%= numero %>
+  resposta: Teste
+  questao_id: 3
+
+<% end %>

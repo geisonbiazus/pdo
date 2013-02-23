@@ -1,0 +1,33 @@
+<div class="subtitulo_pesquisa">Dados Demográficos</div>
+<ol>
+  <% @pesquisa.dados_demograficos.each do |dado_demografico| %>
+    <li>
+      <dl>
+        <dt>
+          <% resposta_dado_demografico = @respostas_pesquisa.respostas_dados_demograficos.detect {|r| r.dado_demografico_id == dado_demografico.id} || dado_demografico.respostas_dados_demograficos.new %>
+          <% classe = "questao_com_erro" if (!resposta_dado_demografico.valid? && params[:action] == "responder_questionario") %>
+
+          <%= label('dado_demografico', dado_demografico.id, dado_demografico.questao, :class => classe) %>
+          </dt>
+        <dd>
+          <%= hidden_field_tag  "dados_demograficos[#{dado_demografico.id}][dado_demografico_id]", dado_demografico.id %>
+
+          <% if dado_demografico.tipo == 'ABERTA' %>
+            <%= text_field "dado_demografico", dado_demografico.id, :class => "text questao_pesquisa #{classe}", :size => 50,
+              :name => "dados_demograficos[#{dado_demografico.id}][resposta]",
+              :value => (@respostas_pesquisa.respostas_dados_demograficos.detect {|r| r.dado_demografico_id == dado_demografico.id}.resposta rescue nil)%>
+
+          <% else %>
+            <%= select("dado_demografico", dado_demografico.id,
+              dado_demografico.alternativas.collect {|a| [a.descricao, a.id] }, {:include_blank => true,
+                :selected => (@respostas_pesquisa.respostas_dados_demograficos.detect do |r|
+                    r.dado_demografico_id == dado_demografico.id
+                  end.alternativa_dado_demografico_id rescue nil)},
+              :class => "text questao_pesquisa #{classe}",
+              :name => "dados_demograficos[#{dado_demografico.id}][alternativa_dado_demografico_id]") %>
+          <% end %>
+        </dd>
+      </dl>
+    </li>
+  <% end %>
+</ol>

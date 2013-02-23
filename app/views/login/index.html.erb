@@ -1,0 +1,16 @@
+<center>
+  <p style="color: red"><%= flash[:error] %></p>
+  <% form_for :usuario, :url => {:action => 'logar', :controller => 'login'} do |f| %>
+    <table>
+      <tr>
+        <td>Usuário</td>
+        <td><%= f.text_field :usuario, :class => 'text', :size => 20 %></td>
+      </tr>
+      <tr>
+        <td>Senha</td>
+        <td><%= f.password_field :senha, :class => 'text', :size => 20 %></td>
+        <td><%= f.submit "Entrar" %></td>
+      </tr>
+    </table>
+  <% end %>
+</center>

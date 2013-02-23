@@ -1,0 +1,44 @@
+setup
+open '/'
+
+load_selectors :pesquisas
+
+click_on "menu_pesquisas"
+
+should_wait_for "link_adicionar_nova_pesquisa"
+
+click_on "editar_pesquisa_1"
+
+should_wait_for "dados_da_pesquisa"
+
+should_have_text "titulo_pesquisa_para_teste", "Pesquisa para teste"
+
+should_have_text "texto_introdutorio_pesquisa_para_teste", "Texto da pesquisa para teste"
+
+click_on "link_editar"
+
+should_wait_for "pesquisa_titulo"
+
+type_on "pesquisa_titulo" => "Título alterado"
+
+type_on "pesquisa_texto_introdutorio" => "Texto alterado"
+
+click_on "botao_alterar"
+
+should_wait_for "titulo_pesquisa_para_teste"
+
+should_have_text "titulo_pesquisa_para_teste", "Título alterado"
+
+should_have_text "texto_introdutorio_pesquisa_para_teste", "Texto alterado"
+
+click_on "link_editar"
+
+should_wait_for "pesquisa_titulo"
+
+type_on "pesquisa_titulo" => "Pesquisa para teste"
+
+type_on "pesquisa_texto_introdutorio" => "Texto da pesquisa para teste"
+
+click_on "botao_alterar"
+
+

@@ -1,0 +1,17 @@
+Ruim:
+  id: 1
+  grupo_de_questoes_id: 1
+  descricao: Ruim
+  numero: 1
+
+Regular:
+  id: 2
+  grupo_de_questoes_id: 1
+  descricao: Regular
+  numero: 2
+
+bom:
+  id: 3
+  grupo_de_questoes_id: 1
+  descricao: Bom
+  numero: 3

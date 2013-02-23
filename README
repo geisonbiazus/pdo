@@ -1,0 +1,13 @@
+Sistema para criar e aplicar pesquisas de opinião
+
+gems necessárias
+
+rails 2.3.2
+rdoc
+pg
+spreadsheet
+
+plugins necessários
+
+ruby script/plugin install git://github.com/dchelimsky/rspec.git -r 'refs/tags/1.2.9'
+ruby script/plugin install git://github.com/dchelimsky/rspec-rails.git -r 'refs/tags/1.2.9'

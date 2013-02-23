@@ -1,0 +1,7 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+pesquisa_para_teste:
+  id: 1
+  titulo: Pesquisa para teste
+  texto_introdutorio: Texto da pesquisa para teste
+  

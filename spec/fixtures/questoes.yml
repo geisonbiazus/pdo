@@ -1,0 +1,22 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+questao_teste:
+  id: 1
+  descricao: Questao Teste
+  grupo_de_questoes_id: 1
+  questao_obrigatoria: true
+  numero: 1
+
+questao_teste_2:
+  id: 2
+  descricao: Questao Teste 2
+  grupo_de_questoes_id: 1
+  questao_obrigatoria: true
+  numero: 2
+
+questao_teste_3:
+  id: 3
+  descricao: Questao Teste 3
+  grupo_de_questoes_id: 2
+  questao_obrigatoria: true
+  numero: 3

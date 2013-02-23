@@ -1,0 +1,15 @@
+sexo:
+  id: 1
+  questao: Sexo
+  tipo: FECHADA
+  pesquisa_id: 1
+  questao_obrigatoria: true
+  numero: 1
+
+cidade:
+  id: 2
+  questao: Cidade
+  tipo: ABERTA
+  pesquisa_id: 1
+  questao_obrigatoria: true
+  numero: 2

@@ -1,0 +1,52 @@
+<h4>Visualizar Todas as Respostas</h4>
+<%= button_to "Gerar Relatório", {:action => "visualizar_respostas", :id => @pesquisa.id}, :style => "margin-top: 15px;margin-bottom: 15px; " %>
+
+<% form_for :relatorio, :url => {:action => "gerar_pdf", :id => @pesquisa.id} do |f| %>
+  <h4>Tabular Respostas</h4>
+
+  <ol class="form">
+    <% @pesquisa.dados_demograficos.each do |dado_demografico| %>
+      <% if dado_demografico.tipo == 'FECHADA' %>
+        <li class="form-element">
+          <dl class="">
+            <% html_id = "relatorio_dado_demografico_#{dado_demografico.id}_#{@pesquisa.id}" %>
+            <dt>
+              <%= label_tag html_id, dado_demografico.questao %>
+            </dt>
+            <dd>
+              <%= hidden_field_tag "relatorio[dados_demograficos][#{dado_demografico.id}][id]", dado_demografico.id %>
+      <%# if dado_demografico.tipo == 'FECHADA' %>
+              <%= select("relatorio", "dado_demografico_#{dado_demografico.id}",
+                dado_demografico.alternativas.collect {|a| [a.descricao, a.id] }, {:include_blank => true},
+                :class => "text-input",
+                :name => "relatorio[dados_demograficos][#{dado_demografico.id}][alternativa_dado_demografico_id]",
+                :id => html_id) %>
+      <%# else %>
+      <%#= text_field_tag "relatorio[dados_demograficos][#{dado_demografico.id}][resposta]", nil, :id => html_id, :class => "text-input" %>
+      <%# end %>
+            </dd>
+          </dl>
+        </li>
+      <% end %>
+    <% end %>
+    <li class="form-element">
+      <dl class="">
+        <dt>
+          Tipo Questões
+        </dt>
+        <dd>
+          <%= radio_button_tag "relatorio[tipo_questoes]", 'FECHADAS', true, :id => "relatorio_tipo_questoes_fechadas_#{@pesquisa.id}"%>
+          <%= label_tag "relatorio_tipo_questoes_fechadas_#{@pesquisa.id}", "Fechadas" %>
+          <%= radio_button_tag "relatorio[tipo_questoes]", 'ABERTAS', false, :id => "relatorio_tipo_questoes_abertas_#{@pesquisa.id}"%>
+          <%= label_tag "relatorio_tipo_questoes_abertas_#{@pesquisa.id}", "Abertas" %>
+        </dd>
+      </dl>
+    </li>
+  </ol>
+
+
+  <p class="form-footer">
+    <%= f.submit "Gerar Relatório" %>
+    <%= link_to "Fechar", {:action => "list", :id => @pesquisa.id}, :class => "cancel" %>
+  </p>
+<% end %>

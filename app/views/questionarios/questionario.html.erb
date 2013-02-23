@@ -1,0 +1,29 @@
+<%= error_messages_for :pesquisa, :message => nil, :header_message => "Ocorreu um erro ao responder a pesquisa:" %>
+
+<div id="questionario">
+  <% form_for  :pesquisa, :url => {:action => "responder_questionario", :id => @pesquisa.id} do |f| %>
+    <div class="titulo_pesquisa"><%= h @pesquisa.titulo %></div>
+    <div id="texto_introdutorio">
+      <% if @pesquisa.texto_introdutorio %>
+        <% @pesquisa.texto_introdutorio.split("\n").each do |linha| %>
+          <%= h "#{linha}" %>
+          <br>
+        <% end %>
+      <% end %>
+    </div>
+
+
+    <% unless @pesquisa.dados_demograficos.blank? %>
+      <div id="dados_demograficos" class="formulario">
+        <%= render :partial => "dados_demograficos" %>
+      </div>
+    <% end %>
+
+    <% unless @pesquisa.grupos_de_questoes.blank? %>
+      <div id="grupos_de_questoes">
+        <%= render :partial => "questoes" %>
+      </div>
+    <% end %>
+    <%= f.submit "Enviar" %>
+  <% end %>
+</div>

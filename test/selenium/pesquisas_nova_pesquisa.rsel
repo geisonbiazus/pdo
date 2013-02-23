@@ -1,0 +1,43 @@
+setup
+open '/'
+
+load_selectors :pesquisas
+
+click_on "menu_pesquisas"
+
+should_wait_for "link_adicionar_nova_pesquisa"
+
+click_on "link_adicionar_nova_pesquisa"
+
+should_wait_for "submit_pesquisa"
+
+should_have_text "titulo", "Nova Pesquisa"
+
+click_on "submit_pesquisa"
+
+should_wait_for "mensagens_de_erro"
+
+should_have_text "mensagens_de_erro", "Titulo não pode ser vazio"
+
+type_on "pesquisa_titulo" => "Título da Pesquisa"
+
+type_on "pesquisa_texto_introdutorio" => "Texto de introdução da pesquisa"
+
+click_on "submit_pesquisa"
+
+should_wait_for "listagem"
+
+should_have_text "titulo", "Cadastro de Pesquisas"
+
+click_on "link_adicionar_nova_pesquisa"
+
+should_wait_for "submit_pesquisa"
+
+should_have_text "titulo", "Nova Pesquisa"
+
+click_on "link_voltar"
+
+should_wait_for "listagem"
+
+should_have_text "titulo", "Cadastro de Pesquisas"
+

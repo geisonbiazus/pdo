@@ -1,0 +1,1 @@
+DIR_TMP_REPORTS = "#{RAILS_ROOT}/tmp/reports"

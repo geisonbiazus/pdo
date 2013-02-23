@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+sexo_masculino:
+  id: 1
+  dado_demografico_id: 1
+  descricao: Masculino
+  numero: 1
+
+sexo_feminino:
+  id: 2
+  dado_demografico_id: 1
+  descricao: Feminino
+  numero: 2

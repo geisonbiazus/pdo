@@ -1,0 +1,5 @@
+<% 1.upto(100) do |numero| %>
+resposta_pesquisa_1_<%= numero %>:
+  id: <%= numero %>
+  pesquisa_id: 1
+<% end %>

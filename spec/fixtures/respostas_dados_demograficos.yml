@@ -1,0 +1,13 @@
+<% 1.upto(100) do |numero| %>
+
+resposta_dado_demografico_sexo_1_<%= numero %>:
+  respostas_pesquisa_id: <%= numero %>
+  alternativa_dado_demografico_id: 1
+  dado_demografico_id: 1
+
+resposta_dado_demografico_cidade_1_<%= numero %>:
+  respostas_pesquisa_id: <%= numero %>
+  resposta: Francisco Beltrão
+  dado_demografico_id: 2
+
+<% end %>

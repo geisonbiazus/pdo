@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+grupo_um:
+  id: 1
+  descricao: Grupo Um
+  tipo: FECHADAS
+  pesquisa_id: 1
+
+grupo_dois:
+  id: 2
+  descricao: Grupo Dois
+  tipo: ABERTAS
+  pesquisa_id: 1

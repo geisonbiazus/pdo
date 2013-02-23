@@ -1,0 +1,44 @@
+menu_pesquisas:
+  //a[text()="Cadastro Pesquisa"]
+
+link_adicionar_nova_pesquisa:
+  //a[text()="Adicionar nova pesquisa"]
+
+titulo:
+  //div[@class="titulo"]
+
+pesquisa_titulo:
+  //input[@name="pesquisa[titulo]" and @id="pesquisa_titulo"]
+
+pesquisa_texto_introdutorio:
+  //textarea[@name="pesquisa[texto_introdutorio]" and @id="pesquisa_texto_introdutorio"]
+
+submit_pesquisa:
+  //input[@type="submit" and @value="Criar"]
+
+link_voltar:
+  //a[text()="Voltar"]
+
+mensagens_de_erro:
+  //div[@id="errorExplanation"]/ul/li
+
+listagem:
+  //table[@class="listagem"]
+
+editar_pesquisa_1:
+  //a[@id="editar_pesquisa_1"]
+
+dados_da_pesquisa:
+  //div[@id="dados_da_pesquisa"]
+
+titulo_pesquisa_para_teste:
+  //div[@id="dados_da_pesquisa"]/ol/li[1]/dl/dd
+
+texto_introdutorio_pesquisa_para_teste:
+  //div[@id="dados_da_pesquisa"]/ol/li[2]/dl/dd
+
+link_editar:
+  //a[text()="Editar"]
+
+botao_alterar:
+  //input[@type="submit" and @value="Alterar"]
